@@ -1,10 +1,10 @@
 pipeline {
         agent any
         environment {
-            registry = "muni123s/sprint6dockerjenkins"
+            registry = "sribadam/sprint6dockerjenkins"
             registryCredential = 'dockerhubcredential'
             dockerImage = ''
-		PROJECT_ID = 'third-upgrade-279211'
+		PROJECT_ID = 'badam-devops-prac'
  		CLUSTER_NAME = 'sprint6-kube-cluster'
  		LOCATION = 'us-central1-c'
  		CREDENTIALS_ID = 'k8jenkins'
